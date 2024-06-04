@@ -4,7 +4,7 @@
 
 ### Step 1: Access ForgeRock Backstage
 
-1. Open your web browser and navigate to [ForgeRock Backstage](https://backstage.forgerock.com/).
+1. Open your web browser and navigate to [ForgeRock Backstage](https://backstage.forgerock.com/) (https://backstage.forgerock.com/).
 2. Click on the **Register** button.
 
 ![Step 1](./fig1.jpg)
