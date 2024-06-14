@@ -55,7 +55,7 @@ sudo yum update -y
 sudo yum install -y vim
 ```
 
-### Set Up WinSCP for File Transfers
+### Step 2: Set Up WinSCP for File Transfers
 
 Retrieve SSH information of your VM:
 
