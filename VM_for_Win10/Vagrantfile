@@ -1,0 +1,19 @@
+Vagrant.configure("2") do |config|
+    # Specify the base box
+    config.vm.box = "centos/7"
+
+    # Forward port 22 for SSH access from host to 2222 (change host port if needed)
+    config.vm.network "forwarded_port", guest: 22, host: 2222
+    # Add more forwarded ports as needed
+    # config.vm.network "forwarded_port", guest: 8080, host: 8080
+
+    # Enable VirtualBox integration
+    config.vm.provider "virtualbox" do |vb|
+      # Disable the GUI
+      vb.gui = false
+      # Customize the amount of memory on the VM:
+      vb.memory = "8192"
+      # Customize the number of CPUs on the VM:
+      vb.cpus = 2
+    end
+  end
