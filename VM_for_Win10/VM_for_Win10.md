@@ -46,6 +46,8 @@ This will set up a CentOS 7 VM. You can then log in using:
 vagrant ssh
 ```
 
+![Fig1](./figs/fig10.png)
+
 Then you can run the following command to check the VM:
 
 ```shell
