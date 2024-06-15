@@ -29,7 +29,7 @@ Before you begin the setup, download and install the following tools:
 
 ## Setup Steps
 
-### Step 1: Set Up the Virtual Machine
+### Step 1: Setup the Virtual Machine
 
 Open PowerShell, and run the following commands to clone the repository and set up the CentOS 7 VM:
 
@@ -55,7 +55,7 @@ sudo yum update -y
 sudo yum install -y vim
 ```
 
-### Step 2: Set Up WinSCP for File Transfers
+### Step 2: Setup WinSCP for File Transfers
 
 Retrieve SSH information of your VM:
 
@@ -102,7 +102,7 @@ VM will restart, then you can access the service in VM by http://localhost:8080
 
 ![Fig7](./figs/fig7.png)
 
-### Step 4: Set Up VS Code for Remote Editing
+### Step 4: Setup VS Code for Remote Development
 
 Install the Remote SSH extension in VS Code. Click the blue icon in the lower left corner, select "Connect to Host", then "Config SSH Hosts". Select the SSH config file, e.g., C:\Users\***\.ssh\config.
 
@@ -121,7 +121,7 @@ Host centos7
 ```
 Change the IdentityFile to the private key file in .vagrant\machines\default\virtualbox, then save it.
 
-Click the blue icon in the lower left corner, select "Connect to Host", then select 'centos7', and you can edit the files or run commands in VM.
+Click the blue icon in the lower left corner, select "Connect to Host", then select 'centos7', and you can edit the files or run commands in the VM.
 
 ![Fig9](./figs/fig9.png)
 
@@ -140,7 +140,7 @@ vagrant reload
 # Useful for reloading any changes made to the Vagrantfile without destroying the VM.
 
 vagrant ssh
-# Run it to build a ssh connection with the VM.
+# Run it to build a SSH connection with the VM.
 
 vagrant destroy
 # Use it when you want to completely remove the VM.
@@ -149,7 +149,7 @@ vagrant status
 # Helpful to check the status of the VM.
 
 vagrant ssh-config
-# Useful to check the ssh configuration of the VM.
+# Useful to check the SSH configuration of the VM.
 
 vagrant suspend
 # Use it to pause the virtual machine, saving its state for later.
