@@ -71,7 +71,7 @@ Under Advanced settings in SSH->Authentication, choose the private key file from
 
 ![Fig2](./figs/fig2.png)
 
-Choose the private key file in .vagrant\machines\default\virtualbox and confirm to convert the private key file to PPK format.
+Choose the private key file and confirm to convert the private key file to PPK format.
 
 ![Fig3](./figs/fig3.png)
 
