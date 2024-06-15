@@ -85,7 +85,7 @@ You can save the session for future use.
 
 ### Step 3: Manage Ports
 
-Because we don't have a GUI, so we need to use port management to access the service in VM.
+Because we don't have a GUI, so we need to use port management to access the service in VM. Open Vagrantfile in the VM directory, and you can see the following lines:
 
 ![Fig6](./figs/fig6.png)
 
