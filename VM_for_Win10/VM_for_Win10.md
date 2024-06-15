@@ -98,7 +98,7 @@ Uncomment and modify the line as necessary to forward additional ports. After ch
 vagrant reload
 ```
 
-VM will reastart, then you can access the service in VM by http://localhost:8080
+VM will restart, then you can access the service in VM by http://localhost:8080
 
 ![Fig7](./figs/fig7.png)
 
@@ -125,3 +125,34 @@ Click the blue icon in the lower left corner, select "Connect to Host", then sel
 
 ![Fig9](./figs/fig9.png)
 
+## Appendix: Vagrant Common Commands and Notes
+
+```shell
+# Run these commands in the directory containing your Vagrantfile
+
+vagrant up
+# Run it to start or resume the VM.     
+
+vagrant halt
+# Use it to safely shut down the VM, preserving the state for the next `vagrant up`.
+
+vagrant reload
+# Useful for reloading any changes made to the Vagrantfile without destroying the VM.
+
+vagrant ssh
+# Run it to build a ssh connection with the VM.
+
+vagrant destroy
+# Use it when you want to completely remove the VM.
+
+vagrant status
+# Helpful to check the status of the VM.
+
+vagrant ssh-config
+# Useful to check the ssh configuration of the VM.
+
+vagrant suspend
+# Use it to pause the virtual machine, saving its state for later.
+
+vagrant resume
+# Run it to continue after using `vagrant suspend`.
