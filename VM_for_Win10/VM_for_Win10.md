@@ -134,7 +134,7 @@ vagrant up
 # Run it to start or resume the VM.     
 
 vagrant halt
-# Use it to safely shut down the VM, preserving the state for the next `vagrant up`.
+# Use it to safely shut down the VM, preserving the state for the next "vagrant up".
 
 vagrant reload
 # Useful for reloading any changes made to the Vagrantfile without destroying the VM.
@@ -155,4 +155,4 @@ vagrant suspend
 # Use it to pause the virtual machine, saving its state for later.
 
 vagrant resume
-# Run it to continue after using `vagrant suspend`.
+# Run it to continue after using "vagrant suspend".
